@@ -1,0 +1,104 @@
+*{
+  font-family: 'Cairo', sans-serif;
+}
+#loginbox{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.95);
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  height: 100%;
+  width: 100%;
+}
+#loginbox .login{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #FFF;
+  border: 2px solid #EEE;
+  box-shadow: 2px 2px 13px #000;
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+  padding-bottom: 20px;
+}
+#loginbox .login h1{
+  border-bottom: 2px solid #EEE;
+  padding-bottom: 10px;
+}
+#loginbox .login input{
+  width: 70%;
+  text-align: center;
+  border: 1px solid #AAA;
+  padding: 7px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+}
+#alert_msg{
+  display: block;
+  color: red;
+  min-height: 30px;
+}
+/*
+.fixed-top{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+*/
+h1.page-header{
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 2px solid #CCC;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.messages{
+  max-height: calc(100vh - 200px);
+  overflow-y: scroll;
+}
+.messages .message{
+  margin: 15px 0;
+  text-align: left;
+}
+.messages .message.me{
+  text-align: right;
+}
+.messages .message.me span.text{
+  background: #4e4ef5;
+  color: #FFF;
+}
+.messages .message span.text{
+  padding: 5px 15px;
+  background: #DDD;
+  color: #000;
+  border-radius: 12px;
+}
+.messages .message span.by{
+  display: block;
+  font-size: 12px;
+  color: #666;
+}
+.messages .message span.by:hover{
+  color: #222;
+}
+
+.fixed-bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.msg-box{
+  background: #EEE;
+  padding: 10px 15px;
+}
+.msg-box input{
+  width: calc(100% - 30px);
+  padding: 10px;
+  font-size: 18px;
+}

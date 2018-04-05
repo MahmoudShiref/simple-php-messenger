@@ -1,0 +1,5 @@
+CREATE TABLE messages (
+  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  username VARCHAR(32) NOT NULL,
+  message TEXT(300) NOT NULL
+);
